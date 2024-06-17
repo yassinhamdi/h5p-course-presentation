@@ -27,6 +27,7 @@ let CoursePresentation = function (params, id, extras) {
   this.presentation = params.presentation;
   this.slides = this.presentation.slides;
   this.contentId = id;
+  this.extraData = extras;
   this.elementInstances = []; // elementInstances holds the instances for elements in an array.
   this.elementsAttached = []; // Map to keep track of which slide has attached elements
   this.slidesWithSolutions = [];
